@@ -1,0 +1,50 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 3rem 5.5rem;
+  background-color: var(--var-light-gray);
+  overflow: hidden;
+}
+
+.hero__title {
+  width: 45rem;
+  text-align: center;
+  font-size: 4.6rem;
+  font-family: "Newsreader", serif;
+  font-weight: 500;
+  color: var(--var-darkblue);
+}
+
+.hero__desc {
+  width: 38rem;
+  color: var(--var-lightblue);
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1.9rem;
+  margin: 0;
+}
+
+/* selecting the .hero-btn with a higher specificity, to over-write inherited styles */
+.hero .hero__btn {
+  padding: 1rem 1.5rem;
+  color: white;
+  background-color: var(--var-purple);
+  border-color: var(--var-purple);
+  text-transform: lowercase;
+  margin-block: 2.8rem 5rem;
+}
+.hero__btn::first-letter {
+  text-transform: uppercase;
+}
+
+.hero__img {
+  width: 56.7rem;
+}
+
+.hero #left-pattern {
+  position: absolute;
+  bottom: -12%;
+  left: 0;
+}
