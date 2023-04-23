@@ -1,0 +1,84 @@
+.benefits {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 4rem 0.5fr 0.5fr;
+  column-gap: 1.8rem;
+}
+
+.benefits__title {
+  font-size: 3rem;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  line-height: 3.5rem;
+}
+.benefits__desc {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: var(--var-lightblue);
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-right: 1rem;
+}
+
+.benefits ul {
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+
+/* select and style each element that represents a benefit */
+.benefits__benefit {
+  display: grid;
+  align-items: center;
+  column-gap: 0.9rem;
+}
+
+.benefits__benefit #tick {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.benefits__benefit h3 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+.benefits__benefit h3::first-letter {
+  text-transform: capitalize;
+}
+.benefits__benefit p {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 75%;
+  font-size: 1.2rem;
+  color: var(--var-lightblue);
+}
+
+.benefits__more {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--var-purple);
+}
+.benefits__more::first-letter {
+  text-transform: uppercase;
+}
+
+.benefits__img:nth-of-type(1) {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  margin-top: 3.5rem;
+}
+
+.benefits__img:nth-of-type(2) {
+  grid-column: 4/5;
+  grid-row: 2/5;
+}
+.benefits #double-comma {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  justify-self: center;
+  top: -1rem;
+}
