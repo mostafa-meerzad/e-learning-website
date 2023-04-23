@@ -1,0 +1,82 @@
+.roadmap {
+  background-color: var(--var-light-gray);
+  text-align: center;
+  padding: 5rem;
+}
+
+.roadmap__title {
+  grid-column: 1/6;
+  grid-row: 1/2;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.roadmap__desc {
+  font-size: 1.7rem;
+}
+
+.roadmap > .roadmap__btn {
+  background-color: var(--var-purple);
+  border-radius: 0.3rem;
+  border-color: var(--var-purple);
+  color: white;
+  padding-inline: 2rem;
+  font-weight: 300;
+}
+
+.roadmap__steps {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.roadmap__step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 13rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.roadmap__step-num {
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--var-light-green);
+  color: white;
+  border-radius: 50%;
+}
+
+.roadmap__step-desc {
+  color: var(--var-darkblue);
+  font-weight: 600;
+  font-size: 1.08rem;
+  line-height: 1.6rem;
+}
+
+/* placing step-elements */
+
+.roadmap__step:nth-child(1) {
+  grid-column: 1/2;
+}
+.roadmap__step:nth-child(2) {
+  grid-column: 3/4;
+}
+.roadmap__step:nth-child(3) {
+  grid-column: 5/6;
+}
+.roadmap__steps #upside {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.roadmap__steps #downside {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
