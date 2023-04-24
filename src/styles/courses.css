@@ -1,6 +1,7 @@
 .courses {
   background-color: white;
   display: grid;
+  place-content: center;
   padding: 5rem 5rem 7rem;
   column-gap: 3rem;
   row-gap: 1.5rem;
@@ -30,8 +31,7 @@
 .course {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  font-family: "Kumbh Sans", sans-serif;
+  align-items: center;
 }
 
 .course__info-wrapper {
@@ -59,15 +59,15 @@
 
 .course__author,
 .course__lesson {
-  border: 1px solid var(--var-very-lightblue);
+  border: 1px solid var(--var-very-darkblue);
   border-radius: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 0.5rem;
   padding: 0.3rem 0.6rem;
-  /* margin: 0; */
   color: var(--var-darkblue);
+  font-family: "Kumbh Sans", sans-serif;
 }
 .course__author {
   grid-column: 1/2;

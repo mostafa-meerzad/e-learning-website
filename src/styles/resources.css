@@ -5,16 +5,16 @@
 }
 
 .resources__title{
-    font-size: 3.5rem;
+    font-size: 2.6rem;
     grid-column: 1/2;
 }
 
 .resources .resources__btn{
     grid-column: 3/4;
     height: fit-content;
-    padding: 1.5rem 2.5rem;
+    padding: 1.2rem 2.1rem;
     border-radius: .4rem;
-    font-size: 1.4rem;
+    font-size: 1.05rem;
     color: white;
     border-color: var(--var-purple);
     background-color: var(--var-purple);
@@ -34,18 +34,19 @@
 }
 
 .resource__title{
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     font-family: 'Kumbh Sans', sans-serif;
 }
 .resource__date{
     color: var(--var-lightblue);
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin-top: 3rem;
+    font-size: 1.1rem;
+    /* font-weight: 500; */
+    margin-top: 2rem;
     margin-bottom: -1rem;
 }
 .resource__desc{
-    font-size: 1.5rem;
-    line-height: 2.3rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
     color: var(--var-lightblue);
+    margin-top:-1rem;
 }
