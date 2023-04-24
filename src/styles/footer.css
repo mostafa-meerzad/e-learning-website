@@ -1,0 +1,73 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 4rem;
+  gap: 5rem;
+}
+
+.footer p {
+  color: var(--var-lightblue);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.footer__social-media-wrapper {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 3rem;
+}
+
+.footer__social-media {
+  width: 17rem;
+}
+
+.media {
+  display: grid;
+  place-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--var-light-gray);
+  border-radius: 50%;
+}
+
+.footer h3 {
+  text-transform: capitalize;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.footer li {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--var-darkblue);
+  margin-block: 0.8rem;
+}
+
+.footer__subscription {
+  width: 15rem;
+}
+
+.footer__subscription form {
+  display: flex;
+  margin-top: 3rem;
+}
+.footer__subscription input {
+  background-color: var(--var-light-gray);
+  border: none;
+}
+
+.footer__subscription input[type="email"]::placeholder {
+  color: var(--var-lightblue);
+  font-weight: 500;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.footer__subscription button {
+  display: grid;
+  place-content: center;
+  background-color: var(--var-purple);
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.3rem;
+}
