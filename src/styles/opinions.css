@@ -1,0 +1,26 @@
+.opinions{
+    background-color: var(--var-light-gray);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem 5rem ;
+}
+
+.opinions__title{
+    font-size: 4rem;
+    grid-column: 1/3;
+    justify-self: center;
+}
+.opinions__container{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+.opinions__opinion{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: var(--var-lightblue);
+}
+.opinions__img{
+    justify-self: flex-end;
+}
