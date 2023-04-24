@@ -41,6 +41,13 @@
 
 .hero__img {
   width: 56.7rem;
+  display: grid;
+  place-content: center;
+}
+.hero__img svg {
+  position: absolute;
+  justify-self: center;
+  align-self: center;
 }
 
 .hero #left-pattern {

@@ -1,0 +1,57 @@
+@import "./styles/header.css";
+@import "./styles/fonts.css";
+@import "./styles/hero.css";
+@import "./styles/courses.css";
+@import "./styles/roadmap.css";
+@import "./styles/benefits.css";
+@import "./styles/opinions.css";
+@import "./styles/resources.css";
+@import "./styles/subscription.css";
+@import "./styles/footer.css";
+
+:root {
+  --var-darkblue: #1f3e72;
+  --var-lightblue: #1f3e72bf;
+  --var-very-darkblue: #1f3e7226;
+  --var-very-lightblue: #1F3E7280;
+  --var-purple: #6255a5;
+  --var-light-green: #85d1a0;
+  --var-light-gray: #f9f7ff;
+}
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  border-radius: 0.6rem;
+  border-style: solid;
+  padding: 0.8rem 1rem;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--var-darkblue);
+  font-family: 'Newsreader', serif;}
+
+  p{
+    color: var(--var-darkblue);
+    font-family: 'Kumbh Sans', sans-serif;
+
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }

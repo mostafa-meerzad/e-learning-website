@@ -7,7 +7,7 @@
 }
 
 .opinions__title{
-    font-size: 4rem;
+    font-size: 3rem;
     grid-column: 1/3;
     justify-self: center;
 }
@@ -17,10 +17,19 @@
     place-content: center;
 }
 .opinions__opinion{
-    font-size: 1.7rem;
-    line-height: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
     color: var(--var-lightblue);
 }
 .opinions__img{
     justify-self: flex-end;
+}
+.opinions__name{
+font-size: 1.5rem;
+font-weight: 600;
+}
+.opinions__country{
+    color: var(--var-lightblue);
+    font-size: 1.1rem;
+    font-weight: 500;
 }
