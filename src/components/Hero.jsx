@@ -1,5 +1,5 @@
 import React from "react";
-import { LeftSidePattern } from "../Icons";
+import { LeftSidePattern, Play } from "../Icons";
 import hero from "../assets/images/image7.png";
 function Hero() {
   return (
@@ -12,7 +12,10 @@ function Hero() {
       </p>
 
       <button className="hero__btn btn">start a course</button>
-      <img src={hero} alt="" className="hero__img" />
+      <div className="hero__img">
+      <img src={hero} alt=""  />
+<Play/>
+      </div>
 
       <LeftSidePattern />
     </div>
